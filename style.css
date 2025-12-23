@@ -1,0 +1,40 @@
+body {
+  background: #0f0f0f;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.question {
+  background: #1b1b1b;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.options label {
+  display: block;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.correct {
+  background: #1f6f3f;
+}
+
+.wrong {
+  background: #7a1f1f;
+}
+
+button {
+  padding: 10px 20px;
+  background: #2b2b2b;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
